@@ -1,0 +1,26 @@
+.active{
+    color: #fff !important;
+}
+.filters{
+    display: flex;
+    margin-top: 20px;
+    div{
+        padding:0 10px;
+        font-size: 16px;
+        position: relative;
+        color:rgb(173, 170, 170);
+        cursor: pointer;
+    }
+    .view-all{
+        padding-left: 0;
+    }
+    .view-all::after,
+    .view-active::after
+    {
+        content: "/";
+        font-size: 14px;
+        position: absolute;
+        right: -5px;
+        color:rgb(173, 170, 170)
+    }
+}

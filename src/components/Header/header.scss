@@ -1,0 +1,26 @@
+.header{
+   height: 60px;
+   padding: 10px 0;
+   margin-bottom: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+        .header-title{
+            width: auto;
+            font-size: 14px;
+            div{
+                color:#999;
+                margin-left: 5px;
+                display:inline;
+            }
+        }
+
+        .header-account{
+            display: flex;
+            .logout{
+                margin-left: 20px;
+                cursor: pointer;
+            }
+        }
+}
