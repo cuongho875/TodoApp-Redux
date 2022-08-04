@@ -10,12 +10,12 @@ export default function Header() {
   return (
     <div className="header">
       <div className="header-title">
-        <FontAwesomeIcon icon={faCircle} size="lg"/>
+        <div className="icon-logo"><FontAwesomeIcon icon={faCircle} size="lg"/></div>
         <div>Todo React Redux</div>
       </div>
       {user?(
       <div className="header-account">
-        <div>Hi,{user.displayName} </div>
+        <div className="user-name">Hi,{user.displayName} </div>
         <div className="logout" onClick={logout}>LogOut</div>
       </div>
       ):''}

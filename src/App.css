@@ -19,7 +19,11 @@ body {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+@media only screen and (max-width: 768px) {
+  .App{
+    padding: 0 15px;
+  }
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -24,3 +24,11 @@
             }
         }
 }
+@media only screen and (max-width: 600px) {
+    .user-name{
+        display: none;
+    }
+    .icon-logo{
+        display: none !important;
+    }
+  }

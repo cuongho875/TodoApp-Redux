@@ -80,3 +80,20 @@
         }
     }
 }
+@media only screen and (max-width: 600px) {
+    .task{
+        .task-form{
+            input{
+                font-size: 1.5rem;
+            }
+        }
+        .task-list{
+            ul{
+                .task-item-content,
+                .task-item-edit{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+  }
