@@ -36,6 +36,10 @@ export default function TaskItem(props) {
             editTask(valueInput,props.task.id)
           setActionEdit(false)
         }
+        else{
+            editTask(props.task.todo,props.task.id)
+            setActionEdit(false)
+        }
       }
   return (
     <li className="task-item">
